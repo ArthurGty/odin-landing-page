@@ -1,0 +1,250 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* header */
+
+.header {   
+    /* outline: 1px red solid;  */
+    background-color: #1f2937;
+    /* padding: 16px 570px 16px 620px; */
+    padding: 24px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 184px;
+}
+
+.logo {
+    /* outline: 1px red solid; */
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.header-links {
+    /* outline: 1px red solid; */
+    display: flex;
+    gap: 24px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+
+/* hero section */
+
+.hero-section {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero {
+    /* outline: 1px red solid; */
+    max-width: 1400px;    
+/*     padding: 32px 100px 64px 100px; */
+    padding: 32px 0 64px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    /* outline: 1px red solid; */
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 32px 0;
+
+}
+
+.hero-title {
+    /* outline: 1px red solid;  */
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+
+}
+
+.hero-text {
+    /* outline: 1px red solid;  */
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.hero-button {
+    /* outline: 1px red solid;  */
+    border: 0;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 8px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-image {
+    /* outline: 1px red solid; */
+    height: 300px;
+    padding: 32px 0;
+}
+
+/* information section */
+
+.info {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.info-header {
+    /* outline: 1px red solid; */
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-cards {
+    /* outline: 1px magenta solid; */
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    /* outline: 1px red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+.card-image {
+    height: 300px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.card-text {
+    /* outline: 1px magenta solid; */
+    padding: 16px 48px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* quote */
+
+.quote {    
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-content {
+    padding: 64px;
+    max-width: 720px;
+    text-align: justify;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 16px;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+}
+
+/* call to action */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-box {
+    /* outline: 1px magenta solid; */
+    width: 720px;    
+    background-color: #3882f6;
+    padding: 32px 64px;
+    border-radius: 8px;
+    margin: 64px 0;
+    display: flex;
+    flex-shrink: 0;
+    gap: 128px;
+    justify-content: center;
+    align-items: center;   
+
+}
+
+.call-to-action-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;  
+    margin-bottom: 8px;  
+}
+
+.call-to-action-text {
+    color: #e5e7eb; 
+}
+
+.call-to-action-button {
+    border: #f9faf8 2px solid;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 8px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 32px 0;
+}
+
+.footer-text {
+    color: #e5e7eb;
+}
